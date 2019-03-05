@@ -16,6 +16,7 @@ module FreemarketSample39i
       g.javascripts false
       g.helper false
       g.test_framework false
+      g.template_engine :haml
     end
   end
 end
