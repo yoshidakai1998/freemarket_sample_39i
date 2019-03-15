@@ -61,7 +61,3 @@
 #   }
 
 server '18.182.74.76', user: 'ec2-user', roles: %w{app db web}
-# set :ssh_options, {
-#   keys: ['~/.ssh/key_pair_freemarket.pem'],
-#   forward_agent: false,
-# }
